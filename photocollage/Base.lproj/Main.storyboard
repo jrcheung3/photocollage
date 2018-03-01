@@ -27,7 +27,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="XIY-VR-Lo3" appends="YES" id="gLe-e1-NY9"/>
+                                    <outletCollection property="gestureRecognizers" destination="a7M-QM-N9S" appends="YES" id="Cz6-aH-4lW"/>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E9-Ai-2Xv">
@@ -64,7 +64,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <rotationGestureRecognizer id="XIY-VR-Lo3"/>
+                <rotationGestureRecognizer id="a7M-QM-N9S"/>
             </objects>
             <point key="canvasLocation" x="-119.2" y="-13.043478260869566"/>
         </scene>

@@ -15,7 +15,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var cameraRoll: UIImageView!
     let imagePicker = UIImagePickerController()
     @IBOutlet weak var imageView: UIImageView!
-
+    var rot : CGFloat = 0.0
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -24,7 +25,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         print("Got button press")
         let i = #imageLiteral(resourceName: "turtle")
         pictureTwo.image = i
-        pictureTwo.transform = CGAffineTransform(rotationAngle: CGFloat.pi*180/CGFloat.pi)
+        rot = rot + 10
+        pictureTwo.transform = CGAffineTransform(rotationAngle: rot*CGFloat.pi/180)
         let i2 = #imageLiteral(resourceName: "tortuga2")
         pictureOne.image = i2
     }
